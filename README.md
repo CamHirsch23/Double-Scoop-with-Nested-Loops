@@ -9,7 +9,7 @@ moods = ["Happy", "Sad", "Energetic", "Calm"]
 for day_index in range(len(days_of_week)):
     mood = random.choice(moods)
     print(f"On {days_of_week[day_index]}, you were feeling {mood}.")
-
+    
 # Question 2 
 # Task 1 
 
